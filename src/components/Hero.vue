@@ -1,7 +1,5 @@
 <template>
-  <div class="hero">
-    <img src="@/assets/jumbo.png" alt="jumbo-Vue" />
-  </div>
+  <div class="hero"></div>
 </template>
 
 <script>
@@ -14,11 +12,11 @@ export default {
 <style scoped >
 .hero {
   background-color: #35495e;
-  height: 451px;
-  margin-top: 156px;
-}
-img {
-  margin-top: 150px;
-  width: 800px;
+  background-image: url("../assets/jumbo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 450px;
+  margin-top: 100px;
 }
 </style>
